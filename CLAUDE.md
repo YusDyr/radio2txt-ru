@@ -24,6 +24,7 @@
 | [docs/whisper-finetuning.md](docs/whisper-finetuning.md) | Полный гайд: LoRA, full fine-tune, prompt engineering, аугментация, железо, конвертация |
 | [docs/pipeline-architecture.md](docs/pipeline-architecture.md) | 4 варианта архитектуры (от минимального до production), Python-скелет, частоты РФ |
 | [docs/russian-models.md](docs/russian-models.md) | Предобученные русские Whisper-модели, датасеты, рекомендации |
+| [docs/sdr-hardware.md](docs/sdr-hardware.md) | SDR-приёмник MSi2500+MSi001: ESD-защита, моды, апгрейды, ссылки на схемы |
 
 ## Топ-проекты для референса
 
@@ -34,7 +35,7 @@
 
 ## Железо
 
-У владельца проекта есть SDR-приёмник (клон RSP1 на MSi2500/MSi001, 4 антенных входа, Aliexpress). Требует доработки — защита антенных входов.
+SDR-приёмник — клон RSP1 на MSi2500/MSi001 (4 антенных входа, Aliexpress). Критическая доработка: антенные входы НЕ защищены от ESD — нужно напаять TVS-диоды (PESD5V0S1BA, 0.25 пФ, SOD-323) на каждый SMA. Подробности в [docs/sdr-hardware.md](docs/sdr-hardware.md).
 
 ## Рекомендуемый пайплайн
 
