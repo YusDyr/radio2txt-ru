@@ -25,6 +25,7 @@
 | [docs/pipeline-architecture.md](docs/pipeline-architecture.md) | 4 варианта архитектуры (от минимального до production), Python-скелет, частоты РФ |
 | [docs/russian-models.md](docs/russian-models.md) | Предобученные русские Whisper-модели, датасеты, рекомендации |
 | [docs/sdr-hardware.md](docs/sdr-hardware.md) | SDR-приёмник MSi2500+MSi001: ESD-защита, моды, апгрейды, ссылки на схемы |
+| [docs/russian-resources.md](docs/russian-resources.md) | Русскоязычные магазины, форумы, альтернативы: где купить компоненты в РФ |
 
 ## Топ-проекты для референса
 
